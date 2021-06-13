@@ -27,7 +27,7 @@ app.use('/users', usersRouter);
 
 
 app.get('',(req,res)=>{
-  res.render('index')
+  res.render('layout')
 })
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
