@@ -6,3 +6,5 @@ const connection = mysql.createConnection({
     database: 'todaynews',
     password: 'password'
 })
+
+module.exports = connection
