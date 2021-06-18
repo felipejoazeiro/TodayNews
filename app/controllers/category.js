@@ -9,7 +9,7 @@ module.exports = {
     },
     create(req,res){
         Categories.selectCategories((options)=>{
-            return res.render('create-news', {categoriesOptions: options})
+            return res.render('create-news', {categoriesOptions: options, files:[], image:[]} )
         })
     }
 }

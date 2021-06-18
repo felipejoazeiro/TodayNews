@@ -13,7 +13,7 @@ router.get('/', categories.index);
 router.get('/createnews', categories.create)
 
 
-router.get('/category-news',(req,res)=>{
+router.get('/brazil-news',(req,res)=>{
   res.render('category-news')
 })
 
